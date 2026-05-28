@@ -98,11 +98,6 @@ curl -X POST http://localhost:8000/run-agent \
 - If the frontend cannot reach the backend, confirm `API_BASE_URL` is set to `http://backend:8000` inside Compose or `http://localhost:8000` when running locally.
 - If `docker compose` cannot resolve `host.docker.internal`, keep the `extra_hosts` entry in the compose file.
 
-## Video Demo Checklist
+## Video Demo Link
 
-- Show `docker compose up --build` starting all three services.
-- Open the Streamlit frontend and submit a banking message.
-- Show the `/run-agent` response in the backend and the structured JSON output.
-- Demonstrate a successful intent classification when Ollama is available.
-- Demonstrate fallback behavior by stopping Ollama and repeating the same request.
-- Show the `make` command generating the gRPC Python files in `intent_service/`.
+https://drive.google.com/file/d/11AkRt32ek5w04qDUbw4TuHJ1t4yEx8cg/view?usp=sharing
